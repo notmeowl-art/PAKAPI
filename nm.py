@@ -473,7 +473,7 @@ def join_team():
     })
 
 def run_flask():
-    app.run(host='0.0.0.0', port=10000, debug=True, use_reloader=True)
+    app.run(host='0.0.0.0', port=11500, debug=False, use_reloader=False)
 
 async def MaiiiinE():
     global loop, key, iv, region
